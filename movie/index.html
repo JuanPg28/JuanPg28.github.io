@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>FatherOfMovies</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">FatherOfMovies</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#recomendadas">Peliculas</a>
+                <a class="redes" href="https://es-es.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="redes" href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                <a class="redes" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">Invasión</h3>
+                <p class="descripcion">
+                    Riz Ahmed interpreta a Malik Khan, un exmarine que, después de varios viajes a zonas de guerra, vuelve a casa y se entera de un siniestro secreto: una especie alienígena de insectos se está apoderando de los cuerpos de las personas con apariencia normal.
+                </p>
+                <a href="index.invasion.html"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
+                <a href="index.invasion.html"><button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button></a>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3 id="recomendadas">Películas Recomendadas</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-galeria">
+                    <div class="galeria">
+                        <div class="pelicula">
+                            <a href="index.matrix.html"><img src="images/1.png" alt="Matrix Resurrections (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.eternals.html"><img src="images/2.png" alt="Eternals (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.dune.html"><img src="images/3.png" alt="Dune (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.leyes.html"><img src="images/4.png" alt="Las leyes de la frontera (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.gk.html"><img src="images/5.png" alt="Godzilla vs. Kong (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.space.html"><img src="images/6.png" alt="Space Jam: Nuevas Leyendas (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.señales.html"><img src="images/7.png" alt="Señales del futuro (2009)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.spider.html"><img src="images/8.png" alt="Spider-Man: No Way Home (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.ultimo.html"><img src="images/9.png" alt="El último duelo (2021)"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="index.furia.html"><img src="images/10.png" alt="Despierta la furia (2021)"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/da327203e1.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+</html>

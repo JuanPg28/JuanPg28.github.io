@@ -1,0 +1,336 @@
+
+/* --- --- ---- Pelicula Principal ---- --- ---*/
+
+.pelicula-principal-info-matrix{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_matrix.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-eternals{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_eternals.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-dune{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_dune.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-leyes{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_leyes.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-gk{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_gk.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-space{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_space.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-señales{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_señales.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-spider{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_spider.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-ultimo{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_ultimo.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-furia{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_furia.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-invasion{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(images/backdrop_invasion.png);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal-info-matrix .contenedor, .pelicula-principal-info-eternals .contenedor, .pelicula-principal-info-dune .contenedor, .pelicula-principal-info-leyes .contenedor,
+.pelicula-principal-info-gk .contenedor, .pelicula-principal-info-space .contenedor, .pelicula-principal-info-señales .contenedor, .pelicula-principal-info-spider .contenedor, 
+.pelicula-principal-info-ultimo .contenedor, .pelicula-principal-info-furia .contenedor, .pelicula-principal-info-invasion .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.pelicula-principal-info-matrix .titulo, .pelicula-principal-info-eternals .titulo, .pelicula-principal-info-dune .titulo, .pelicula-principal-info-leyes .titulo,
+.pelicula-principal-info-gk .titulo, .pelicula-principal-info-space .titulo, .pelicula-principal-info-señales .titulo, .pelicula-principal-info-spider .titulo, 
+.pelicula-principal-info-ultimo .titulo, .pelicula-principal-info-furia .titulo, .pelicula-principal-info-invasion .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal-info-matrix .subtitulo, .pelicula-principal-info-eternals .subtitulo, .pelicula-principal-info-dune .subtitulo, .pelicula-principal-info-leyes .subtitulo,
+.pelicula-principal-info-gk .subtitulo, .pelicula-principal-info-space .subtitulo, .pelicula-principal-info-señales .subtitulo, .pelicula-principal-info-spider .subtitulo, 
+.pelicula-principal-info-ultimo .subtitulo, .pelicula-principal-info-furia .subtitulo, .pelicula-principal-info-invasion .subtitulo{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal-info-matrix .director, .pelicula-principal-info-eternals .director, .pelicula-principal-info-dune .director, .pelicula-principal-info-leyes .director,
+.pelicula-principal-info-gk .director, .pelicula-principal-info-space .director, .pelicula-principal-info-señales .director, .pelicula-principal-info-spider .director, 
+.pelicula-principal-info-ultimo .director, .pelicula-principal-info-furia .director, .pelicula-principal-info-invasion .director{
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.4em;
+    color: #06c9cfdc;
+}
+
+.pelicula-principal-info-matrix .descripcion, .pelicula-principal-info-eternals .descripcion, .pelicula-principal-info-dune .descripcion, .pelicula-principal-info-leyes .descripcion,
+.pelicula-principal-info-gk .descripcion, .pelicula-principal-info-space .descripcion, .pelicula-principal-info-señales .descripcion, .pelicula-principal-info-spider .descripcion, 
+.pelicula-principal-info-ultimo .descripcion, .pelicula-principal-info-furia .descripcion, .pelicula-principal-info-invasion .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.pelicula-principal-info-matrix .boton, .pelicula-principal-info-eternals .boton, .pelicula-principal-info-dune .boton, .pelicula-principal-info-leyes .boton,
+.pelicula-principal-info-gk .boton, .pelicula-principal-info-space .boton, .pelicula-principal-info-señales .boton, .pelicula-principal-info-spider .boton, 
+.pelicula-principal-info-ultimo .boton, .pelicula-principal-info-furia .boton, .pelicula-principal-info-invasion .boton{
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: white;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.pelicula-principal-info-matrix .boton:hover, .pelicula-principal-info-eternals .boton:hover, .pelicula-principal-info-dune .boton:hover, .pelicula-principal-info-leyes .boton:hover,
+.pelicula-principal-info-gk .boton:hover, .pelicula-principal-info-space .boton:hover, .pelicula-principal-info-señales .boton:hover, .pelicula-principal-info-spider .boton:hover, 
+.pelicula-principal-info-ultimo .boton:hover, .pelicula-principal-info-furia .boton:hover, .pelicula-principal-info-invasion .boton:hover{
+    background: white;
+    color: #000;
+}
+
+.pelicula-principal-info-matrix .boton i, .pelicula-principal-info-eternals .boton i, .pelicula-principal-info-dune .boton i, .pelicula-principal-info-leyes .boton i,
+.pelicula-principal-info-gk .boton i, .pelicula-principal-info-space .boton i, .pelicula-principal-info-señales .boton i, .pelicula-principal-info-spider .boton i, 
+.pelicula-principal-info-ultimo .boton i, .pelicula-principal-info-furia .boton i, .pelicula-principal-info-invasion .boton i{
+    margin-right: 1.25em;
+}
+
+
+/* --- --- ---- Galeria de Actores ---- --- ---*/
+
+.menu_container {
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+}
+
+.menu_content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%);
+    background-position: center center;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
+    padding: .75rem;
+}
+
+.menu_trailer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%);
+    background-position: center center;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
+    padding: .75rem;
+}
+
+.menu_img{
+    width: 100px;
+    align-self: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.menu_name{
+    font-weight: 600;
+    color: white;
+}
+.menu_name {
+    font-size: .938rem;
+}
+.menu_detail{
+    font-size: .813rem;
+    color: white;
+}
+.menu_detail {
+    margin-bottom: .5rem;
+}
+.menu_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: 10px 97px;
+}
+.button{
+    display: inline-block;
+    background-color: #06c9cfdc;
+    color: #fff;
+    padding: .50rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+.button:hover {
+    background-color: #06c8cf94;
+}
+.tk-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* --- --- ---- Media Queries ---- --- ---*/
+
+@media screen and (max-width: 800px) {
+
+    .pelicula-principal-info-matrix, .pelicula-principal-info-dune, .pelicula-principal-info-eternals, .pelicula-principal-info-furia,
+    .pelicula-principal-info-gk, .pelicula-principal-info-invasion, .pelicula-principal-info-leyes, .pelicula-principal-info-señales,
+    .pelicula-principal-info-space, .pelicula-principal-info-spider, .pelicula-principal-info-ultimo{
+        font-size: 14px;
+        background-size: cover;
+    }
+
+    .pelicula-principal-info-matrix .descripcion, .pelicula-principal-info-dune .descripcion, .pelicula-principal-info-eternals .descripcion, .pelicula-principal-info-furia .descripcion,
+    .pelicula-principal-info-gk .descripcion, .pelicula-principal-info-invasion .descripcion, .pelicula-principal-info-leyes .descripcion, .pelicula-principal-info-señales .descripcion,
+    .pelicula-principal-info-space .descripcion, .pelicula-principal-info-spider .descripcion, .pelicula-principal-info-ultimo .descripcion{
+        max-width: 100%;
+    }
+
+    .pelicula-principal-info-matrix .titulo, .pelicula-principal-info-eternals .titulo, .pelicula-principal-info-dune .titulo, .pelicula-principal-info-leyes .titulo,
+    .pelicula-principal-info-gk .titulo, .pelicula-principal-info-space .titulo, .pelicula-principal-info-señales .titulo, .pelicula-principal-info-spider .titulo, 
+    .pelicula-principal-info-ultimo .titulo, .pelicula-principal-info-furia .titulo, .pelicula-principal-info-invasion .titulo{
+        max-width: 100%;
+    }
+
+    .pelicula-principal-info-matrix .subtitulo, .pelicula-principal-info-eternals .subtitulo, .pelicula-principal-info-dune .subtitulo, .pelicula-principal-info-leyes .subtitulo,
+    .pelicula-principal-info-gk .subtitulo, .pelicula-principal-info-space .subtitulo, .pelicula-principal-info-señales .subtitulo, .pelicula-principal-info-spider .subtitulo, 
+    .pelicula-principal-info-ultimo .subtitulo, .pelicula-principal-info-furia .subtitulo, .pelicula-principal-info-invasion .subtitulo{
+       max-width: 100%;
+    }
+
+    .pelicula-principal-info-matrix .director, .pelicula-principal-info-eternals .director, .pelicula-principal-info-dune .director, .pelicula-principal-info-leyes .director,
+    .pelicula-principal-info-gk .director, .pelicula-principal-info-space .director, .pelicula-principal-info-señales .director, .pelicula-principal-info-spider .director, 
+    .pelicula-principal-info-ultimo .director, .pelicula-principal-info-furia .director, .pelicula-principal-info-invasion .director{
+        max-width: 100%;
+    }
+
+    .peliculas-recomendadas .contenedor-galeria{
+        overflow: visible;
+    }
+
+    .peliculas-recomendadas .contenedor-galeria .galeria .menu_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    iframe{
+        width: 320px;
+        height: 196.25px;
+    }
+
+    .pelicula-principal-info-matrix .boton, .pelicula-principal-info-eternals .boton, .pelicula-principal-info-dune .boton, .pelicula-principal-info-leyes .boton,
+    .pelicula-principal-info-gk .boton, .pelicula-principal-info-space .boton, .pelicula-principal-info-señales .boton, .pelicula-principal-info-spider .boton, 
+    .pelicula-principal-info-ultimo .boton, .pelicula-principal-info-furia .boton, .pelicula-principal-info-invasion .boton{
+        margin-bottom: 10px;
+    }
+
+}
+
