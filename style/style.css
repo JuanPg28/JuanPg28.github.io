@@ -1038,7 +1038,11 @@ button {
     }
 
     .portafolio-item {
-        width: calc(100% - 120px);
+        width: calc(100% - 30px);
+    }
+
+    .portafolio-item video{
+        width: calc(100% - 5px);
     }
 
     .pp-thumbnail video{
