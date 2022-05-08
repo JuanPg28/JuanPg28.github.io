@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/da327203e1.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Portfolio-Juan Peña</title>
+
+    <script>
+        function silbarFuction() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Carga de Pagina Inicio -->
+
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Carga de Pagina Final -->
+
+    <!-- Burbujas Inicio -->
+
+    <div class="bg-circles">
+        <div class="circles-1"></div>
+        <div class="circles-2"></div>
+        <div class="circles-3"></div>
+        <div class="circles-4"></div>
+    </div>
+
+    <!-- Burbujas Final -->
+
+    <!-- Overlay Inicio -->
+
+    <div class="overlay">
+
+    </div>
+
+    <!-- Overlay Inicio -->
+
+    <!-- Principal -->
+    <div class="main hidden">
+
+        <!-- Encabezado Inicio -->
+
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">Sobre mi</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Encabezado Final -->
+
+        <!-- Sección de Inicio -->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hola, Mi nombre es</p>
+                        <h1>Juan Peña</h1>
+                        <h2>Junior Developer</h2>
+                        <a href="#about" class="btn link-item">Más sobre mí</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="image/photo2.png" alt="PerfilJobs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Final -->
+
+        <!-- Sobre el inicio de la sección -->
+
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Sobre mí</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="image/photo1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Desempeñarme, ofrecer y desarrollar todas mis capacidades innatas, consiguiendo un excelente
+                            resultado
+                            en la labor y el área asignada; además, adquirir a través de la responsabilidad y confianza
+                            en mí
+                            depositada, una experiencia inigualable, con la cual conseguiré un paso importante en mi
+                            superación
+                            personal, junto con el orgullo de ser parte de su equipo de trabajo.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">Html</div>
+                            <div class="skill-item">Css</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">Angular</div>
+                            <div class="skill-item">Spring</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">TypeScript</div>
+                            <div class="skill-item">NodeJS</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">Educación</button>
+                            <button type="button" class="tab-item" data-target="#experiencia">Experiencia</button>
+                        </div>
+
+                        <!-- Educación Inicio -->
+
+                        <div class="tab-content active" id="education">
+                            <h2>FORMACIÓN ACADÉMICA</h2>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2016 - 2018</span>
+                                    <h4>Grado Superior Robótica Ind. y Automatización - <span>Manuel Lora-Tamayo</span>
+                                    </h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2014 - 2016</span>
+                                    <h4>Grado Medio Inst. Eléctricas y Automáticas - <span>La SALLE Sagrado Corazón de
+                                            Jesús</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2012 - 2013</span>
+                                    <h4>Educación Secundaria Obligatoria - <span>Oratorio Padre Torres Silva
+                                        </span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <h2>FORMACIÓN COMPLEMENTARIA</h2>
+                                <div class="timeline-item">
+                                    <span class="date">2021 - 2022</span>
+                                    <h4>Full Stack Programador Junior - <span>ITTI High Tech Institute</span></h4>
+                                    <p>Madrid</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - 2020</span>
+                                    <h4>Formación Call Center - <span>Majorel-ORANGE</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - 2020</span>
+                                    <h4>Reposición y Preparación de pedidos
+                                        Online - <span>GABORAL</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - 2020</span>
+                                    <h4>Superior en Nutrición deportiva y
+                                        Entrenamiento Personal - <span>MasterD</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - 2020</span>
+                                    <h4>Competencias digitales Empresa - <span>Cámara de Comercio</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019 - 2020</span>
+                                    <h4>Protección de equipos en la Red - <span>Cámara de Comercio</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Educación Final-->
+
+                        <!-- Experiencia Inicio -->
+
+                        <div class="tab-content" id="experiencia">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021</span>
+                                    <h4>Estación de Servicio - <span>REPSOL</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - 2021</span>
+                                    <h4>Call Center, Residencial y Empresa - <span>ORANGE</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020</span>
+                                    <h4>Mantenimiento - <span>Educación, Ocio y Tiempo Libre LA FABRICA</span></h4>
+                                    <p>Jerez de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2019</span>
+                                    <h4>Técnico de Placas Solares - <span>SOLAR21</span></h4>
+                                    <p>Arcos de la Frontera</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2016</span>
+                                    <h4>Técnico Medio - <span>DINSE</span></h4>
+                                    <p>Córdoba</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Experiencia Final -->
+
+                        <a href="JuanPeña-CV.pdf" target="_blank" class="btn">Descargar CV</a>
+                        <a href="#contact" class="btn link-item">Contacto</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre el final de la sección -->
+
+        <!-- Portafolio Inico -->
+
+        <section class="portafolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Proyectos Realizados</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Inicio de Artículo 1-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/FatherOfMovies.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">FatherOfMovies</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>31 Dic 2021</span></li>
+                                    <li>Tecnología usada - <span>Html, Css, JavaScript</span></li>
+                                    <li>Rol - <span>FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="https://juanpg28.github.io/movie/"
+                                                target="_blank">https://juanpg28.github.io/movie/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 1-->
+
+                    <!-- Inicio de Artículo 2-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/CINEMA ― 100% PURO & REAL.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">CINEMA ― 100% PURO & REAL</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>9 Abr 2022</span></li>
+                                    <li>Tecnología usada - <span>Angular, Html, Css, JavaScript, TypeScript, JSON, Spring, MySQL</span>
+                                    </li>
+                                    <li>Rol - <span>BackEnd/FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="#"
+                                                target="_blank">https://juanpg28.github.io/forms/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 2-->
+
+                    <!-- Inicio de Artículo 3-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/HALAL Yahya-Market.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">HALAL Yahya-Market</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>5 Abr 2022</span></li>
+                                    <li>Tecnología usada - <span>Html, Css, JavaScript</span>
+                                    </li>
+                                    <li>Rol - <span>FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="#"
+                                                target="_blank">https://juanpg28.github.io/yahya-market/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 3-->
+
+                    <!-- Inicio de Artículo 4-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/Estefashion.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">Estefashion</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>1 Abr 2022</span></li>
+                                    <li>Tecnología usada - <span>Html, Css, JavaScript</span>
+                                    </li>
+                                    <li>Rol - <span>FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="#"
+                                                target="_blank">https://juanpg28.github.io/estefashion/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 4-->
+
+                    <!-- Inicio de Artículo 5-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/PortalCat.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">PortalCat</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>9 Abr 2022</span></li>
+                                    <li>Tecnología usada - <span>Html, Css, JavaScript</span>
+                                    </li>
+                                    <li>Rol - <span>FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="#"
+                                                target="_blank">https://juanpg28.github.io/portalcat/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 5-->
+
+                    <!-- Inicio de Artículo 6-->
+
+                    <div class="portafolio-item">
+                        <div class="portafolio-item-thumbnail">
+                            <video src="video/NEW ― OLYMPIC.mp4" autoplay loop controls muted width="321" height="180"></video>
+                        </div>
+                        <h3 class="portafolio-item-title">NEW ― OLYMPIC</h3>
+                        <button type="button" class="btn view-project-btn">Ver Proyecto</button>
+                        <div class="portafolio-item-details">
+                            <div class="description">
+                                <p></p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Creado - <span>6 May 2022</span></li>
+                                    <li>Tecnología usada - <span>Angular, Html, Css, JavaScript, TypeScript, JSON, Spring, MySQL</span></li>
+                                    <li>Rol - <span>BackEnd/FrontEnd</span></li>
+                                    <li>Ver Online - <span><a href="#"
+                                                target="_blank">https://juanpg28.github.io/halal/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Final de Artículo 6-->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portafolio Final -->
+
+        <!-- Seccion Contacto Inicio -->
+
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contacto</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Nombre" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Asunto" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Mensaje" class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>juanpeagarrido@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Teléfono</h3>
+                        <p>+34 67* *** ***</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Sigueme</h3>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Contacto Final -->
+
+
+    </div>
+
+    <!-- Final -->
+
+    <!-- Ventana Emergente Proyecto Inicio-->
+
+    <div class="portafolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <video src="video/FatherOfMovies.mp4" autoplay loop controls muted width="840px"></video>
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ventana Emergente Proyecto Final-->
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
