@@ -1038,6 +1038,10 @@ button {
     }
 
     .portafolio-item {
+        width: calc(100% - 120px);
+    }
+
+    .pp-thumbnail video{
         width: calc(100% - 30px);
     }
 
